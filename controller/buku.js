@@ -35,6 +35,9 @@ const store = (req, res, next) => {
     tahun: req.body.tahun,
     harga: req.body.harga,
   });
+  if(req.file){
+      buku.photo = req.file.path
+  }
   buku
     .save()
     .then((response) => {

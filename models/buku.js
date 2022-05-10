@@ -16,6 +16,9 @@ const book_schema = new schema({
     },
     harga: {
         type: String
+    },
+    photo: {
+        type: String
     }
 }, {timestamps:true});
 
