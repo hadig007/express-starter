@@ -19,4 +19,4 @@ dan depedency yang dibutuhkan untuk pengembangan di sisi backend
  6. nodemon
 
 
-simple update
+simple update - 
